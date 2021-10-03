@@ -4,6 +4,7 @@ Lab Documentation: https://decaf-lang.github.io/minidecaf-tutorial/
 Original Test Cases: https://github.com/decaf-lang/minidecaf-tests
 Writing a C Compiler: https://norasandler.com/2017/11/29/Write-a-Compiler.html
 Bison Doc: https://www.gnu.org/software/bison/manual/html_node/Complete-Symbols.html
+RISCV Intructions https://riscv.org/wp-content/uploads/2017/05/riscv-spec-v2.2.pdf
 
 
 # 实验背景和实验要求
@@ -71,7 +72,7 @@ void SemPass2::visit(ast::BitNotExpr *e) {
 
     e->ATTR(type) = BaseType::Int;
 }
-6. 
+
 
 
 
@@ -84,3 +85,70 @@ void SemPass2::visit(ast::BitNotExpr *e) {
                 { $$ = new ast::TimesExpr($1, $3, POS(@2)); }
             | Expr MOD Expr 
                 { $$ = new ast::ModExpr($1, $3, POS(@2)); }
+
+
+            | Expr PLUS Expr
+                { $$ = new ast::AddExpr($1, $3, POS(@2)); }
+            | Expr MINUS Expr 
+                { $$ = new ast::SubExpr($1, $3, POS(@2)); }
+            | Expr TIMES Expr
+                { $$ = new ast::MulExpr($1, $3, POS(@2)); }
+            | Expr MOD Expr 
+                { $$ = new ast::ModExpr($1, $3, POS(@2)); }
+            | Expr SLASH Expr 
+                { $$ = new ast::DivExpr($1, $3, POS(@2)); }
+
+
+AddExpr
+DivExpr
+SubExpr
+MulExpr
+DivExpr
+
+# Step 4 比较和逻辑表达式
+
+AndExpr
+OrExpr
+EquExpr
+NeqExpr
+LeqExpr
+LesExpr
+GeqExpr
+GtrExpr
+
+
+# Step 5 局部变量和赋值
+
+AssignExpr
+
+funcdef
+| Type IDENTIFIER LPAREN FormalList RPAREN SEMICOLON
+                { $$ = new ast::FuncDefn($2,$1,$4,new ast::EmptyStmt(POS(@6)),POS(@1)); }
+
+Assignment
+            | IDENTIFIER ASSIGN Expr 
+                { $$ = new ast::AssignExpr($1, $3, POS(@2)); }
+
+
+
+build_sym 
+
+void SemPass1::visit(ast::VarDecl *vdecl) {
+    Type *t = NULL;
+
+    vdecl->type->accept(this);
+    t = vdecl->type->ATTR(type);
+
+ 
+
+    // TODO: Add a new symbol to a scope
+    // 1. Create a new `Variable` symbol
+    // 2. Check for conflict in `scopes`, which is a global variable refering to
+    // a scope stack
+    // 3. Declare the symbol in `scopes`
+    // 4. Special processing for global variables
+    // 5. Tag the symbol to `vdecl->ATTR(sym)`
+}
+
+中间代码生成位于 src/translation/translation.cpp
+C++ 框架：符号表构建位于 src/translation/build_sym.cpp；类型检查位于 src/translation/type_check.cpp；符号表相关的数据结构位于src/symb；作用域相关数据结构位于 src/scope。
