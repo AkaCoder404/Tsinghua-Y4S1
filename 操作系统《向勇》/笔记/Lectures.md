@@ -139,10 +139,39 @@ RISCV SV39 - represents 512 size
 
 逻辑地址vs物理地址？
 
+> **Virtual address**: The address you use in your programs, the address that your CPU use to fetch data, is not real and gets translated via MMU to some physical address; everyone has one and its size depends on your system(Linux running 32-bit has 4GB address space)
+>
+> **Physical address** : The address you'll never reach if you're running on top of an OS. It's where your data, regardless of its virtual address, resides in RAM. This will change if your data is sent back and forth to the hard disk to accommodate more space for other processes.
+
 page vs frame?
+
+> Physical memory is organized into PAGE FRAMES. The size of a page frame is a power of 2 in bytes and varies among systems.
+>
+> Logical memory is organized into PAGES. The size of page matches a page frame.
+>
+> A logical address is divided into a page selector and an offset into the page.
+>
+> Logical pages are mapped to page frames using page tables. The structure of a page table varies among systems. The pages selector of a logical address serves as an index into a page table.
+>
+> In most systems, the page tables can specify valid logical addresses that have no associated page frame. This is a virtual memory system. If an application attempt to access such a page, it triggers a page fault exception. The operating system page fault handler must allocate a physical page frame, load the page frame using data from secondary storage, update the page table to map the logical page to the newly allocated physical page frame, and finally restart the instruction that caused the fault.
+>
+> The operating system manages the page tables. The CPU (transparently to the application) translates logical page frames into physical page frames using the page table.
 
 slab？
 
 快表TLB？
 
 page table: 多级页表 vs 反值页表
+
+# Lecture 6 2021年10月4日
+
+局部性原理
+
+- 虚拟存储的需求背景
+- 局部性原理
+
+覆盖和交换
+
+虚拟也是存储
+
+RISCV缺页异常 （重点）

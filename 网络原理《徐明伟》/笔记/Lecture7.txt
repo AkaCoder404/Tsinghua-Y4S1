@@ -1,0 +1,60 @@
+# Sliding Window Protocol
+- Data Link Layer protocol used in TCP
+- 发送窗口可变
+- 接受窗口不变，和发送窗口不一定一样
+
+1. 一比特滑动窗口协议
+传输一个帧所需要时间：发送时间 + 时间信道延迟 + 确认信道延迟
+
+RTT 500毫秒
+信道带宽b比特/秒，帧长度L比特，往返传输延迟R秒
+- 信道利用率 L / (L + Rb)
+- 结论，传输延迟大，信道贷款高，帧短时，信道利用率低
+	-
+
+两个改进方式 
+1. 退后n帧重传
+	- EnableNetworkLayer - if not full, can pass frame to next layer
+	- DisableNetworkLayer - if full, cannot pass frame to next layer
+	- 时间驱动 event based
+		- Network_layer_ready
+		- Frame_arrival
+		- Cksum_err
+		- timeout - 重传所有没确认的帧
+	- 计数器处理，发送帧时启动，收到正确确认时停
+2. 选择重传 - 图有问题，如果2超时，3，4，5 ... 8也会， selective repeating
+	- 不会因不必要的重传（退后n会从新传输所有包）
+	- 窗口size有限制
+
+
+Sliding Window Protocol 小姐
+1. 纠错编码
+2. 检错编码，认和重传机制
+3. TCP主要负责可靠传输服务（现实情况）
+4. 可靠传输 was originaly made for 链路层, but now mostly in TCP. However, it still exists, for example, 无线链路
+
+
+# 协议说明与验证
+1. 协议说明 Protocol Specification
+2. 协议验证 Protocol Verification
+3. 协议实现 Protocol Implementation
+4. 协议测试 Protocol Testing
+
+形式化描述技术FDT Formal Description Technique
+> Formal definitions is a logical technique that reveals the meaning of a term or word.
+1. 优先状态机
+2. Petri网模型
+
+# 常用的数据链路层协议
+1. 面向字符的联络层协议 - ISO, PPP (mosts important, everything else outdated)
+2. 面向比特的链路层协议 - CCITT
+
+高级数据链路控制规程 HDLC
+https://www.tutorialspoint.com/high-level-data-link-control-hdlc
+- 三种站，两种构型，三种操作模式
+
+HDLC的子集X.25
+LAPD 面向比特
+
+PPP: Point to Point Protocol - solve SLIP 的问题
+1. 提供差错校验，支持多种协议，允许动态分配IP地址，直至认证等。。。

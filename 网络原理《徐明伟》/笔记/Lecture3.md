@@ -72,15 +72,25 @@ OSI的问题
 
 信道 - 多路复用（多个用户同时用）
 
-交换 - 
+交换 -
 
-frame，packet - https://techdifferences.com/difference-between-frame-and-packet.html#:~:text=Key%20Differences%20Between%20Frame%20and%20Packet%201%20A,Packet%20encapsulates%20segment%20in%20the%20network%20layer.%20
+frame，packet 区别
+
+![](image/Lecture3/1633280599526.png)
 
 同步传输、异步传输 （synchronous and asynchronou transmission）
 
-- https://techdifferences.com/difference-between-synchronous-and-asynchronous-transmission.html#:~:text=Key%20Differences%20Between%20Synchronous%20and%20Asynchronous%20Transmission%201,than%20that%20of%20Synchronous%20Transmission.%20More%20items...%20
+> the major differences is that in synchronous transmission, the sender and receiver should have synchronized clocks before data transmition, where as in asynchronous transmission does not require a clock, but adds a parity bit to before the transmission. Furthermore, the synchronous transmission uses synchronization characters while asynchronous method employs start/stop bits, in order to alert the modem when data are being sent and when are these transmissions are completed are known as message characters
 
-模拟信号发送，数字信号发送
+信号发送方法：模拟，数字
 
+数据编码级数：基带传输，baseband transmission， frequency bands, interval in frequency domain, designated uses/functions at diff frequency
+
+- NRZ non return to zero?
+
+数字数据的模拟传输，也称频带传输, frequency band transmission
+
+- modulation, processing of changing the parameters of the carrier signal (a high frequency signal that can travel longer distances without being affected), in accordance with the instantaneous values of the modulating signal, helps original message travel farther, strehngthens the signal without changing original message
+- demodulation
 
 stop at 调制 modulation/demodulation

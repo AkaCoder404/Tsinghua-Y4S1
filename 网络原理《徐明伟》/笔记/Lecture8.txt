@@ -1,0 +1,23 @@
+# Lecture 8, 2021年11月1日
+
+802.3 和 Ethernet 
+- https://www.tutorialspoint.com/ieee-802-3-and-ethernet
+- 有一点区别，比如mac地址长度,不同preamble
+
+
+MAC
+
+802.5 令牌环
+
+重点
+- 透明网桥、生成树网桥、、
+
+
+课堂练习
+1. A (guessed C)
+2. A (guessed A)
+3. B (guessed B) 
+4. A (guessed C)
+5. B (guessed B)
+
+下课开始网络层

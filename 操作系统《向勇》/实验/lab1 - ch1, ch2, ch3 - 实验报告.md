@@ -1,6 +1,7 @@
 # ch1
 
 ## 实验目的
+
 1. 结合实验指导书，掌握代码基本结构
 2. 读懂os/kernel.ld和Makefile
 3. make debug,自学gdb调试的方式
@@ -37,11 +38,6 @@ Breakpoint 1 at 0x1000
 
 ```
 
-
-
-
-
-
 0x80000000以后可直接看rustbi的源代码，不看gdb汇编了
 
 # ch2
@@ -49,4 +45,3 @@ Breakpoint 1 at 0x1000
 ## 实验目的
 
 ## 问道作业
-

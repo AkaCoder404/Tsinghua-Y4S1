@@ -1,0 +1,22 @@
+# Lecture 9, 2021年11月8日
+
+# 网络层
+
+## 路径路由算法
+1. Shortest Path Routing, ie Djikstra, given the network topology
+2. 洪乏算法 
+	- flooding
+	- selective flooding
+3. 流量算法
+	- flow based routing http://pollybd.com/2019/12/15/flow-based-routing/
+
+4.　距离向量路由算法　distance vector routing, bellman-ford/ford-fulkerson算法
+－　https://www.ques10.com/p/3796/what-is-count-to-infinity-problem-in-distance-vect/
+5．链路状态路由算法 link state routing
+
+
+链路状态算法LS 和距离向量算法DV
+
+
+考试
+－　动态路由算法

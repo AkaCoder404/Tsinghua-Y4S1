@@ -6,8 +6,7 @@ Inverse Index Construction
 
 1. https://web.stanford.edu/class/cs276/19handouts/lecture3-indexconstruction-1per.pdf
 
-
-Information Retrieval Problem 
+Information Retrieval Problem
 
 https://nlp.stanford.edu/IR-book/html/htmledition/an-example-information-retrieval-problem-1.html
 
