@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?><nmaprun start="1639937608" profile_name="Quick traceroute" xmloutputversion="1.04" scanner="nmap" version="7.92" startstr="Mon Dec 20 02:13:28 2021" args="nmap -sn --traceroute 106.12.250.0/23"><verbose level="0"></verbose><debugging level="0"></debugging><output type="interactive">Starting Nmap 7.92 ( https://nmap.org ) at 2021-12-20 02:13 China Standard Time
+Nmap scan report for 106.12.250.195
+Host is up (0.052s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-9 are the same as for 106.12.251.9
+10  23.00 ms 182.61.255.151
+11  46.00 ms 182.61.217.245
+12  ... 16
+17  51.00 ms 106.12.250.195
+
+Nmap scan report for 106.12.250.196
+Host is up (0.27s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-11 are the same as for 106.12.250.209
+12  ... 15
+16  30.00 ms 106.12.250.196
+
+Nmap scan report for 106.12.250.200
+Host is up (0.14s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-7 are the same as for 106.12.250.196
+8   4.00 ms  182.61.255.32
+9   34.00 ms 182.61.255.103
+10  49.00 ms 182.61.255.155
+11  25.00 ms 182.61.255.209
+12  ... 16
+17  53.00 ms 106.12.250.200
+
+Nmap scan report for 106.12.250.201
+Host is up (0.035s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-9 are the same as for 106.12.250.196
+10  57.00 ms 182.61.216.115
+11  30.00 ms 182.61.217.237
+12  ... 16
+17  30.00 ms 106.12.250.201
+
+Nmap scan report for 106.12.250.202
+Host is up (0.054s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-9 are the same as for 106.12.251.9
+10  52.00 ms 182.61.216.109
+11  25.00 ms 182.61.218.41
+12  ... 15
+16  65.00 ms 106.12.250.202
+
+Nmap scan report for 106.12.250.203
+Host is up (0.21s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-10 are the same as for 106.12.250.205
+11  30.00 ms 182.61.217.207
+12  ... 16
+17  52.00 ms 106.12.250.203
+
+Nmap scan report for 106.12.250.204
+Host is up (0.047s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-10 are the same as for 106.12.250.209
+11  50.00 ms 182.61.217.233
+12  ... 15
+16  31.00 ms 106.12.250.204
+
+Nmap scan report for 106.12.250.205
+Host is up (0.055s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-11 are the same as for 106.12.251.9
+12  ... 15
+16  57.00 ms 106.12.250.205
+
+Nmap scan report for 106.12.250.208
+Host is up (0.026s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-8 are the same as for 106.12.250.196
+9   21.00 ms 182.61.255.107
+10  26.00 ms 182.61.216.113
+11  31.00 ms 182.61.217.231
+12  ... 15
+16  24.00 ms 106.12.250.208
+
+Nmap scan report for 106.12.250.209
+Host is up (0.030s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+1   27.00 ms 101.5.168.1
+2   3.00 ms  172.17.2.25
+3   3.00 ms  118.229.4.77
+4   5.00 ms  qhu0.cernet.net (202.112.38.69)
+5   4.00 ms  101.4.113.233
+6   4.00 ms  219.224.103.38
+7   6.00 ms  101.4.130.34
+8   4.00 ms  182.61.255.28
+9   22.00 ms 182.61.217.163
+10  26.00 ms 182.61.255.149
+11  26.00 ms 182.61.217.201
+12  ... 16
+17  30.00 ms 106.12.250.209
+
+Nmap scan report for 106.12.250.216
+Host is up (0.060s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-10 are the same as for 106.12.251.9
+11  57.00 ms 182.61.218.37
+12  ... 15
+16  54.00 ms 106.12.250.216
+
+Nmap scan report for 106.12.251.3
+Host is up (0.026s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-10 are the same as for 106.12.250.201
+11  49.00 ms 182.61.217.211
+12  ... 17
+18  25.00 ms 106.12.251.3
+
+Nmap scan report for 106.12.251.9
+Host is up (0.026s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-7 are the same as for 106.12.250.209
+8   9.00 ms  182.61.255.38
+9   21.00 ms 182.61.217.167
+10  31.00 ms 182.61.216.105
+11  33.00 ms 182.61.217.239
+12  ... 17
+18  26.00 ms 106.12.251.9
+
+Nmap scan report for 106.12.251.10
+Host is up (0.026s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-10 are the same as for 106.12.250.200
+11  29.00 ms 182.61.217.243
+12  ... 19
+20  24.00 ms 106.12.251.10
+
+Nmap scan report for 106.12.251.11
+Host is up (0.058s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-10 are the same as for 106.12.250.205
+11  50.00 ms 182.61.217.241
+12  ... 18
+19  55.00 ms 106.12.251.11
+
+Nmap scan report for 106.12.251.17
+Host is up (0.051s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-10 are the same as for 106.12.250.196
+11  31.00 ms 182.61.255.213
+12  ... 17
+18  50.00 ms 106.12.251.17
+
+Nmap scan report for 106.12.251.18
+Host is up (0.027s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-11 are the same as for 106.12.251.205
+12  ... 18
+19  27.00 ms 106.12.251.18
+
+Nmap scan report for 106.12.251.19
+Host is up (0.047s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-11 are the same as for 106.12.251.206
+12  ... 19
+20  39.00 ms 106.12.251.19
+
+Nmap scan report for 106.12.251.20
+Host is up (0.030s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-11 are the same as for 106.12.251.3
+12  ... 19
+20  31.00 ms 106.12.251.20
+
+Nmap scan report for 106.12.251.205
+Host is up (0.030s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-10 are the same as for 106.12.251.206
+11  67.00 ms 182.61.217.213
+12  ... 15
+16  29.00 ms 106.12.251.205
+
+Nmap scan report for 106.12.251.206
+Host is up (0.035s latency).
+
+TRACEROUTE (using proto 1/icmp)
+HOP RTT      ADDRESS
+-   Hops 1-9 are the same as for 106.12.251.3
+10  27.00 ms 182.61.216.117
+11  51.00 ms 182.61.255.217
+12  ... 16
+17  33.00 ms 106.12.251.206
+
+Nmap done: 512 IP addresses (21 hosts up) scanned in 63.88 seconds
+</output><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.250.195"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="6.00" host="" ipaddr="101.4.130.34" ttl="7"></hop><hop rtt="9.00" host="" ipaddr="182.61.255.38" ttl="8"></hop><hop rtt="21.00" host="" ipaddr="182.61.217.167" ttl="9"></hop><hop rtt="23.00" host="" ipaddr="182.61.255.151" ttl="10"></hop><hop rtt="46.00" host="" ipaddr="182.61.217.245" ttl="11"></hop><hop rtt="51.00" host="" ipaddr="106.12.250.195" ttl="17"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.250.196"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="6.00" host="" ipaddr="101.4.130.34" ttl="7"></hop><hop rtt="4.00" host="" ipaddr="182.61.255.28" ttl="8"></hop><hop rtt="22.00" host="" ipaddr="182.61.217.163" ttl="9"></hop><hop rtt="26.00" host="" ipaddr="182.61.255.149" ttl="10"></hop><hop rtt="26.00" host="" ipaddr="182.61.217.201" ttl="11"></hop><hop rtt="30.00" host="" ipaddr="106.12.250.196" ttl="16"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.250.200"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="4.00" host="" ipaddr="101.4.130.38" ttl="7"></hop><hop rtt="4.00" host="" ipaddr="182.61.255.32" ttl="8"></hop><hop rtt="34.00" host="" ipaddr="182.61.255.103" ttl="9"></hop><hop rtt="49.00" host="" ipaddr="182.61.255.155" ttl="10"></hop><hop rtt="25.00" host="" ipaddr="182.61.255.209" ttl="11"></hop><hop rtt="53.00" host="" ipaddr="106.12.250.200" ttl="17"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.250.201"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="4.00" host="" ipaddr="101.4.130.38" ttl="7"></hop><hop rtt="9.00" host="" ipaddr="182.61.255.42" ttl="8"></hop><hop rtt="28.00" host="" ipaddr="182.61.217.169" ttl="9"></hop><hop rtt="57.00" host="" ipaddr="182.61.216.115" ttl="10"></hop><hop rtt="30.00" host="" ipaddr="182.61.217.237" ttl="11"></hop><hop rtt="30.00" host="" ipaddr="106.12.250.201" ttl="17"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.250.202"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="6.00" host="" ipaddr="101.4.130.34" ttl="7"></hop><hop rtt="9.00" host="" ipaddr="182.61.255.38" ttl="8"></hop><hop rtt="21.00" host="" ipaddr="182.61.217.167" ttl="9"></hop><hop rtt="52.00" host="" ipaddr="182.61.216.109" ttl="10"></hop><hop rtt="25.00" host="" ipaddr="182.61.218.41" ttl="11"></hop><hop rtt="65.00" host="" ipaddr="106.12.250.202" ttl="16"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.250.203"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="4.00" host="" ipaddr="101.4.130.38" ttl="7"></hop><hop rtt="4.00" host="" ipaddr="182.61.255.32" ttl="8"></hop><hop rtt="34.00" host="" ipaddr="182.61.255.103" ttl="9"></hop><hop rtt="49.00" host="" ipaddr="182.61.216.253" ttl="10"></hop><hop rtt="30.00" host="" ipaddr="182.61.217.207" ttl="11"></hop><hop rtt="52.00" host="" ipaddr="106.12.250.203" ttl="17"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.250.204"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="6.00" host="" ipaddr="101.4.130.34" ttl="7"></hop><hop rtt="4.00" host="" ipaddr="182.61.255.28" ttl="8"></hop><hop rtt="22.00" host="" ipaddr="182.61.217.163" ttl="9"></hop><hop rtt="26.00" host="" ipaddr="182.61.255.149" ttl="10"></hop><hop rtt="50.00" host="" ipaddr="182.61.217.233" ttl="11"></hop><hop rtt="31.00" host="" ipaddr="106.12.250.204" ttl="16"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.250.205"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="6.00" host="" ipaddr="101.4.130.34" ttl="7"></hop><hop rtt="9.00" host="" ipaddr="182.61.255.38" ttl="8"></hop><hop rtt="21.00" host="" ipaddr="182.61.217.167" ttl="9"></hop><hop rtt="31.00" host="" ipaddr="182.61.216.105" ttl="10"></hop><hop rtt="33.00" host="" ipaddr="182.61.217.239" ttl="11"></hop><hop rtt="57.00" host="" ipaddr="106.12.250.205" ttl="16"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.250.208"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="4.00" host="" ipaddr="101.4.130.38" ttl="7"></hop><hop rtt="9.00" host="" ipaddr="182.61.255.42" ttl="8"></hop><hop rtt="21.00" host="" ipaddr="182.61.255.107" ttl="9"></hop><hop rtt="26.00" host="" ipaddr="182.61.216.113" ttl="10"></hop><hop rtt="31.00" host="" ipaddr="182.61.217.231" ttl="11"></hop><hop rtt="24.00" host="" ipaddr="106.12.250.208" ttl="16"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.250.209"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="6.00" host="" ipaddr="101.4.130.34" ttl="7"></hop><hop rtt="4.00" host="" ipaddr="182.61.255.28" ttl="8"></hop><hop rtt="22.00" host="" ipaddr="182.61.217.163" ttl="9"></hop><hop rtt="26.00" host="" ipaddr="182.61.255.149" ttl="10"></hop><hop rtt="26.00" host="" ipaddr="182.61.217.201" ttl="11"></hop><hop rtt="30.00" host="" ipaddr="106.12.250.209" ttl="17"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.250.216"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="6.00" host="" ipaddr="101.4.130.34" ttl="7"></hop><hop rtt="9.00" host="" ipaddr="182.61.255.38" ttl="8"></hop><hop rtt="21.00" host="" ipaddr="182.61.217.167" ttl="9"></hop><hop rtt="31.00" host="" ipaddr="182.61.216.105" ttl="10"></hop><hop rtt="57.00" host="" ipaddr="182.61.218.37" ttl="11"></hop><hop rtt="54.00" host="" ipaddr="106.12.250.216" ttl="16"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.251.3"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="4.00" host="" ipaddr="101.4.130.38" ttl="7"></hop><hop rtt="9.00" host="" ipaddr="182.61.255.42" ttl="8"></hop><hop rtt="28.00" host="" ipaddr="182.61.217.169" ttl="9"></hop><hop rtt="57.00" host="" ipaddr="182.61.216.115" ttl="10"></hop><hop rtt="49.00" host="" ipaddr="182.61.217.211" ttl="11"></hop><hop rtt="25.00" host="" ipaddr="106.12.251.3" ttl="18"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.251.9"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="6.00" host="" ipaddr="101.4.130.34" ttl="7"></hop><hop rtt="9.00" host="" ipaddr="182.61.255.38" ttl="8"></hop><hop rtt="21.00" host="" ipaddr="182.61.217.167" ttl="9"></hop><hop rtt="31.00" host="" ipaddr="182.61.216.105" ttl="10"></hop><hop rtt="33.00" host="" ipaddr="182.61.217.239" ttl="11"></hop><hop rtt="26.00" host="" ipaddr="106.12.251.9" ttl="18"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.251.10"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="4.00" host="" ipaddr="101.4.130.38" ttl="7"></hop><hop rtt="4.00" host="" ipaddr="182.61.255.32" ttl="8"></hop><hop rtt="34.00" host="" ipaddr="182.61.255.103" ttl="9"></hop><hop rtt="49.00" host="" ipaddr="182.61.255.155" ttl="10"></hop><hop rtt="29.00" host="" ipaddr="182.61.217.243" ttl="11"></hop><hop rtt="24.00" host="" ipaddr="106.12.251.10" ttl="20"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.251.11"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="4.00" host="" ipaddr="101.4.130.38" ttl="7"></hop><hop rtt="4.00" host="" ipaddr="182.61.255.32" ttl="8"></hop><hop rtt="34.00" host="" ipaddr="182.61.255.103" ttl="9"></hop><hop rtt="49.00" host="" ipaddr="182.61.216.253" ttl="10"></hop><hop rtt="50.00" host="" ipaddr="182.61.217.241" ttl="11"></hop><hop rtt="55.00" host="" ipaddr="106.12.251.11" ttl="19"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.251.17"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="4.00" host="" ipaddr="101.4.130.38" ttl="7"></hop><hop rtt="9.00" host="" ipaddr="182.61.255.42" ttl="8"></hop><hop rtt="28.00" host="" ipaddr="182.61.217.169" ttl="9"></hop><hop rtt="31.00" host="" ipaddr="182.61.216.111" ttl="10"></hop><hop rtt="31.00" host="" ipaddr="182.61.255.213" ttl="11"></hop><hop rtt="50.00" host="" ipaddr="106.12.251.17" ttl="18"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.251.18"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="4.00" host="" ipaddr="101.4.130.38" ttl="7"></hop><hop rtt="9.00" host="" ipaddr="182.61.255.42" ttl="8"></hop><hop rtt="28.00" host="" ipaddr="182.61.217.169" ttl="9"></hop><hop rtt="27.00" host="" ipaddr="182.61.216.117" ttl="10"></hop><hop rtt="67.00" host="" ipaddr="182.61.217.213" ttl="11"></hop><hop rtt="27.00" host="" ipaddr="106.12.251.18" ttl="19"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.251.19"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="4.00" host="" ipaddr="101.4.130.38" ttl="7"></hop><hop rtt="9.00" host="" ipaddr="182.61.255.42" ttl="8"></hop><hop rtt="28.00" host="" ipaddr="182.61.217.169" ttl="9"></hop><hop rtt="27.00" host="" ipaddr="182.61.216.117" ttl="10"></hop><hop rtt="51.00" host="" ipaddr="182.61.255.217" ttl="11"></hop><hop rtt="39.00" host="" ipaddr="106.12.251.19" ttl="20"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.251.20"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="4.00" host="" ipaddr="101.4.130.38" ttl="7"></hop><hop rtt="9.00" host="" ipaddr="182.61.255.42" ttl="8"></hop><hop rtt="28.00" host="" ipaddr="182.61.217.169" ttl="9"></hop><hop rtt="57.00" host="" ipaddr="182.61.216.115" ttl="10"></hop><hop rtt="49.00" host="" ipaddr="182.61.217.211" ttl="11"></hop><hop rtt="31.00" host="" ipaddr="106.12.251.20" ttl="20"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.251.205"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="4.00" host="" ipaddr="101.4.130.38" ttl="7"></hop><hop rtt="9.00" host="" ipaddr="182.61.255.42" ttl="8"></hop><hop rtt="28.00" host="" ipaddr="182.61.217.169" ttl="9"></hop><hop rtt="27.00" host="" ipaddr="182.61.216.117" ttl="10"></hop><hop rtt="67.00" host="" ipaddr="182.61.217.213" ttl="11"></hop><hop rtt="29.00" host="" ipaddr="106.12.251.205" ttl="16"></hop></trace></host><host comment=""><status state="up"></status><address addrtype="ipv4" vendor="" addr="106.12.251.206"></address><hostnames></hostnames><ports></ports><os></os><uptime lastboot="" seconds=""></uptime><tcpsequence index="" values="" difficulty=""></tcpsequence><ipidsequence values="" class=""></ipidsequence><tcptssequence values="" class=""></tcptssequence><trace port="" proto="icmp"><hop rtt="27.00" host="" ipaddr="101.5.168.1" ttl="1"></hop><hop rtt="3.00" host="" ipaddr="172.17.2.25" ttl="2"></hop><hop rtt="3.00" host="" ipaddr="118.229.4.77" ttl="3"></hop><hop rtt="5.00" host="qhu0.cernet.net" ipaddr="202.112.38.69" ttl="4"></hop><hop rtt="4.00" host="" ipaddr="101.4.113.233" ttl="5"></hop><hop rtt="4.00" host="" ipaddr="219.224.103.38" ttl="6"></hop><hop rtt="4.00" host="" ipaddr="101.4.130.38" ttl="7"></hop><hop rtt="9.00" host="" ipaddr="182.61.255.42" ttl="8"></hop><hop rtt="28.00" host="" ipaddr="182.61.217.169" ttl="9"></hop><hop rtt="27.00" host="" ipaddr="182.61.216.117" ttl="10"></hop><hop rtt="51.00" host="" ipaddr="182.61.255.217" ttl="11"></hop><hop rtt="33.00" host="" ipaddr="106.12.251.206" ttl="17"></hop></trace></host><runstats><finished timestr="Mon Dec 20 02:14:29 2021" time="1639937669"></finished><hosts down="491" total="512" up="21"></hosts></runstats></nmaprun>
