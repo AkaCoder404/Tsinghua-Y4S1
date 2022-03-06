@@ -1,2 +1,3 @@
 # Tsinghua-Y4S1
-first semester of fourth year at Tsinghua University
+
+This repository contains all notes and assignments for my first semester of my fourth year at Tsinghua University.
